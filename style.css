@@ -1,25 +1,110 @@
 .section-one {
  background-color: #1f2937;
+ position: relative;
  display: flex;
 }
 
-.section-one-right {
+.section-one-left {
     display: flex;
-    align-items: center;
-    gap: 16px;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
 
+button {
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-bottom: 100px;
+}
 
-a {
+.section-one img {
+    width: 400px;
+    height: 200px;
+}
+
+.section-one-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-text {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
     padding: 10px;
 }
 
-h1 {
+.section-one-p {
+    padding-left: 50px;
+}
+
+.section-one-left h2 {
     font-size: 24px;
     color: #f9faf9;
-    margin: 30px;
+}
+
+.section-one-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.section-one-left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.section-one-left h2, h1{
     padding-left: 50px;
+}
+
+.section-one-left p {
+    margin-top: -40px;
+
+}
+
+.section-one-button {
+    padding-left: 50px;
+    margin-top: -30px;
+}
+
+.section-one-img {
+    padding: 50px;
+    padding-top: 20px;
+    gap: 55px;
+}
+
+.section-one-links {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-two img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+    max-width: 250px;
+    justify-content: center;
+}
+
+.info-1
+.info-2
+.info-3
+.info-4 {
+    display: flex
 }
