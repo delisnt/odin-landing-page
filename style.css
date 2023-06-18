@@ -102,9 +102,35 @@ button {
     justify-content: center;
 }
 
-.info-1
-.info-2
-.info-3
-.info-4 {
-    display: flex
+.section-three {
+    color: #1f2937;
+    font-weight: light;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
 }
+
+
+.section-four {
+    width: 50%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.section-four-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+
