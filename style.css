@@ -1,7 +1,7 @@
 .section-one {
  background-color: #1f2937;
- position: relative;
  display: flex;
+ justify-content: space-between;
 }
 
 .section-one-left {
@@ -108,7 +108,8 @@
     font-size: 36px;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-left:  100px;
+    padding-right: 100px;
     background-color: #E5E7EB;
     flex-wrap: wrap;
 }
